@@ -71,3 +71,8 @@ class RouteServiceProvider extends ServiceProvider
              ->group(base_path('routes/api.php'));
     }
 }
+
+Route::get('users', function()
+{
+    return 'Users!';
+});
